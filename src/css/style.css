@@ -12,18 +12,20 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding: 25px;
 }
 
 .container {
   max-width: 540px;
+  min-width: 350px;
   background-color: hsl(217, 19%, 24%);
   border-radius: 10px;
-  padding: 40px;
+  padding: 30px;
 }
 
 .container .gerador-conselhos {
   text-align: center;
-  margin-bottom: -70px;
+  margin-bottom: -60px;
 }
 
 .container .gerador-conselhos .conselho {
@@ -37,6 +39,10 @@ body {
 .container .gerador-conselhos .mensagem-motivacional {
   font-size: 2.5rem;
   margin-bottom: 3rem;
+}
+
+.container .gerador-conselhos .img-div{
+  margin: 0 auto;
 }
 
 .container .gerador-conselhos .btn-back {

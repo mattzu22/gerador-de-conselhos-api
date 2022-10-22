@@ -20,9 +20,14 @@
     <main class="container">
       <div class="gerador-conselhos">
         <p class="conselho">ADVICE <span id="numero"> </span></p>
+
         <p class="mensagem-motivacional" id="mensagem-motivacional"></p>
 
-        <img src="/src/img/pattern-divider-desktop.svg" alt="imagem" />
+        <picture class="img-div">
+          <source srcset="/src/img/img-desktop.svg" media="(min-width:540px)">
+          <img src="/src/img/img-mobile.svg" alt="imagem">
+        </picture>
+
         <div class="btn-back">
           <img class="btn" id="btn" src="/src/img/icon-dice.svg" alt="botão" />
         </div>
