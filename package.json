@@ -1,0 +1,27 @@
+{
+  "name": "gerador-de-conselhos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattzu22/gerador-de-conselhos-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattzu22/gerador-de-conselhos-api/issues"
+  },
+  "homepage": "https://github.com/mattzu22/gerador-de-conselhos-api#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/node": "^20.4.9",
+    "react-loading-skeleton": "^3.3.1"
+  }
+}
